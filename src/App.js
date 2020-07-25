@@ -1,14 +1,13 @@
 import React from "react";
 
-import Countries from "./components/Countries";
-import Search from "./components/Search"
+import CountrySearch from "./CountrySearch"
+import Title from "./components/Title";
 
 const App = () => {
   return (
     <>
-      <div> IN APP</div>
-      <Search />
-      <Countries />
+      <Title />
+      <CountrySearch />
     </>
   );
 };

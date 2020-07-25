@@ -7,11 +7,11 @@ const SearchForm = styled.div`
   align-items: center;
 `;
 
-const Search = () => {
+const Search = ({ input, handleChange, handleSearch }) => {
   return (
     <SearchForm>
-      <Input />
-      <Button>Search</Button>
+      <Input value ={input} onChange={handleChange}/>
+      <Button onClick={handleSearch}>Search</Button>
     </SearchForm>
   );
 };

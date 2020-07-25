@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 
+import Countries from "./components/Countries";
+import Search from "./components/Search"
 
-function App() {
+const App = () => {
   return (
-    <div> HEEEllo</div>
+    <>
+      <div> IN APP</div>
+      <Search />
+      <Countries />
+    </>
   );
-}
+};
 
 export default App;
